@@ -81,11 +81,11 @@ function handleHeaderScroll() {
     if (!header) return;
     
     if (scrolled > 50) {
-        header.style.background = `linear-gradient(135deg, rgba(45, 75, 35, 0.98) 0%, rgba(75, 105, 45, 0.98) 50%, rgba(35, 65, 25, 0.98) 100%)`;
-        header.style.boxShadow = `0 6px 25px rgba(45, 75, 35, 0.6), 0 0 60px rgba(139, 195, 74, 0.15)`;
+        header.style.background = `linear-gradient(135deg, rgba(34, 64, 34, 0.98) 0%, rgba(44, 74, 44, 0.98) 50%, rgba(24, 54, 24, 0.98) 100%)`;
+        header.style.boxShadow = `0 6px 25px rgba(34, 64, 34, 0.8), 0 0 60px rgba(139, 195, 74, 0.2)`;
     } else {
-        header.style.background = `linear-gradient(135deg, rgba(45, 75, 35, 0.95) 0%, rgba(75, 105, 45, 0.95) 50%, rgba(35, 65, 25, 0.95) 100%)`;
-        header.style.boxShadow = `0 4px 20px rgba(45, 75, 35, 0.4), 0 0 50px rgba(139, 195, 74, 0.1)`;
+        header.style.background = `linear-gradient(135deg, rgba(34, 64, 34, 0.95) 0%, rgba(44, 74, 44, 0.95) 50%, rgba(24, 54, 24, 0.95) 100%)`;
+        header.style.boxShadow = `0 4px 20px rgba(34, 64, 34, 0.6), 0 0 50px rgba(139, 195, 74, 0.15)`;
     }
 }
 
